@@ -1,0 +1,38 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper{
+			width: 960px;
+			background-color: #faf8f5;
+			margin: 0 auto;
+		}
+		.title {
+			color: black;
+			font-size: 24px;
+			border-bottom: 1px solid #ee0000;
+			
+		}
+		.stillcut{
+			width: 100%;
+		}
+		.movie-information{
+			position: relative;
+			padding-left: 300px;
+			padding-right: 20px;
+			height: 300px;
+		}
+		.poster{
+			position: absolute;
+			left: 30px;
+			top: -100px;
+			border: 3px solid #eeeeee
+			;
+		}
+		.average-rating{
+			background: url(https://d12hfz37g51hrt.cloudfront.net/assets/stars/star_H.gray_1-eef9e0f23c772bdca43128400c1146b4.png) 0 0;
+			text-indent: -999999px;
+			display: block;
+			width: 100px;
+			height: 14px; 
+
+		}
